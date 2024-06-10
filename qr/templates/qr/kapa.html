@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="{% static '/css/kapa.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>کاپابوم</title>
+  </head>
+  <body>
+    <div class="header-part">
+      <img
+        class="logo"
+        src="{% static 'images/logo.webp'%}"
+        alt="لوگوی کاپابوم"
+      />
+
+      <h1 class="title">کاپابوم</h1>
+
+      <div class="contact">
+        <h2 class="contact-part-title">لینک های مرتبط</h2>
+        <div class="links-container">
+          <a href="https://t.me/kapa_newss"
+            ><img
+              src="{% static 'images/telegram-logo.svg' %}"
+              alt="لوگوی تلگرام"
+          /></a>
+          <a href="https://www.instagram.com/kapa_org/"
+            ><img
+              src="{% static 'images/instagram-logo.png' %}"
+              alt="لوگوی اینستاگرام"
+          /></a>
+          <a href="http://kapaorg.ir/"
+            ><img style="border-radius: 50%;"
+              src="{% static 'images/kapa-link.jpeg' %}"
+              alt="لوگوی کاپا"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="options-part">
+      <a href="https://zehnemovafagh.com/enneagram-personality/"
+        ><div class="enneagram-test option">
+          <img
+            src="{% static 'images/enneagram.webp'%}"
+            alt="لوگوی اینیاگرام"
+          />
+          <h3 class="option-title">تست اینیاگرام</h3>
+        </div></a
+      >
+
+      <a href="https://karboom.io/assessments/myers-briggs"
+        ><div class="mbti-test option">
+          <img src="{% static 'images/mbti.svg' %}" alt="تست MBTI" />
+          <h3 class="option-title">تست MBTI</h3>
+        </div></a
+      >
+
+      <a href="https://drive.google.com/file/d/1QmxBFPxw3sk-CVQWlXZluYR7K7_tI6pW/view"
+        ><div class="belbin-test option">
+          <img src="{% static 'images/belbin test.webp'%}" alt="آزمون بلبین" />
+          <h3 class="option-title">آزمون بلبین</h3>
+        </div></a
+      >
+
+      <a href="https://drive.google.com/file/d/1O3qWRZRyT9s6C-S65z8WuYaVe_ZgMGJE/view"
+        ><div class="belbin-team option">
+          <img src="{% static 'images/belbin team.webp' %}" alt="نقش های بلبین" />
+          <h3 class="option-title">نقش های تیمی بلبین</h3>
+        </div></a
+      >
+    </div>
+  </body>
+</html>
